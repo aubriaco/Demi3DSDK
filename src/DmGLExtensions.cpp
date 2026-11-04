@@ -1,0 +1,29 @@
+
+#include "DmGLExtensions.h"
+
+namespace demi
+{
+	PFNGLACTIVETEXTUREARBPROC glActiveTextureARB                  = NULL;
+	PFNGLPOINTPARAMETERFARBPROC glPointParameterfARB              = NULL;
+	PFNGLPOINTPARAMETERFVARBPROC glPointParameterfvARB            = NULL;
+	PFNGLCLIENTACTIVETEXTUREARBPROC glClientActiveTextureARB      = NULL;
+	PFNGLGENPROGRAMSARBPROC           glGenProgramsARB            = NULL;
+	PFNGLDELETEPROGRAMSARBPROC        glDeleteProgramsARB         = NULL;
+	PFNGLBINDPROGRAMARBPROC           glBindProgramARB            = NULL;
+	PFNGLPROGRAMSTRINGARBPROC         glProgramStringARB          = NULL;
+	PFNGLPROGRAMENVPARAMETER4FARBPROC glProgramEnvParameter4fARB  = NULL;
+	PFNGLCREATEPROGRAMOBJECTARBPROC  glCreateProgramObjectARB	  = NULL;
+	PFNGLDELETEOBJECTARBPROC         glDeleteObjectARB			  = NULL;
+	PFNGLUSEPROGRAMOBJECTARBPROC     glUseProgramObjectARB		  = NULL;
+	PFNGLCREATESHADEROBJECTARBPROC   glCreateShaderObjectARB	  = NULL;
+	PFNGLSHADERSOURCEARBPROC         glShaderSourceARB			  = NULL;
+	PFNGLCOMPILESHADERARBPROC        glCompileShaderARB			  = NULL;
+	PFNGLGETOBJECTPARAMETERIVARBPROC glGetObjectParameterivARB	  = NULL;
+	PFNGLATTACHOBJECTARBPROC         glAttachObjectARB			  = NULL;
+	PFNGLGETINFOLOGARBPROC           glGetInfoLogARB			  = NULL;
+	PFNGLLINKPROGRAMARBPROC          glLinkProgramARB			  = NULL;
+	PFNGLGETUNIFORMLOCATIONARBPROC   glGetUniformLocationARB	  = NULL;
+	PFNGLUNIFORM4FARBPROC            glUniform4fARB				  = NULL;
+	PFNGLUNIFORM4FVARBPROC			 glUniform4fvARB			  = NULL;
+	PFNGLUNIFORM1IARBPROC            glUniform1iARB               = NULL;
+}
